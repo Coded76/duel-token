@@ -3,9 +3,11 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="flex md:flex-row flex-col max-w-7xl mx-auto items-center justify-center">
+    <div className="flex md:flex-row flex-col md:pt-[60px] pt-[40px] max-w-7xl mx-auto items-center justify-center">
       <div>
-        <h2 className="text-[#1EF9F9] text-[40px] md:text-start text-center font-bold">DUEL.COM</h2>
+        <h2 className="text-[#1EF9F9] text-[40px] md:text-start text-center font-bold">
+          DUEL.COM
+        </h2>
         <h2 className="text-[#FFFFFF] text-[40px] pt-[22px] md:text-start text-center font-bold md:max-w-[461px]">
           The First Casino That Gives a Fuck.
         </h2>
@@ -23,22 +25,22 @@ function HeroSection() {
             </p>
           </div>
         </div>
-<div className="flex flex-col md:items-start items-center">
-            <div className="flex mt-12 items-center gap-2.5">
-          <button className="w-[205px] h-[61px] bg-[#13223A] cursor-pointer border border-[#0759FF] rounded-xl">
-            Go to <span>DUEL.COM</span>
-          </button>
-          <button className="w-[205px] h-[61px] bg-[#13223A] cursor-pointer border border-[#0759FF] rounded-xl">
-            Whitepaper
+        <div className="flex flex-col md:items-start items-center">
+          <div className="flex mt-12 items-center gap-2.5">
+            <button className="w-[205px] h-[61px] bg-[#13223A] cursor-pointer border border-[#0759FF] rounded-xl">
+              Go to <span>DUEL.COM</span>
+            </button>
+            <button className="w-[205px] h-[61px] bg-[#13223A] cursor-pointer border border-[#0759FF] rounded-xl">
+              Whitepaper
+            </button>
+          </div>
+
+          <button className="relative w-[420px] mt-[50px] h-[78px] text-white text-[24px] font-medium rounded-[21px] p-0.5 cursor-pointer hover:scale-95 duration-300 transition-all bg-linear-to-r from-[#1F9FC6] via-[#2C175C] to-[#4B275E]">
+            <span className="flex items-center justify-center w-[420px] h-full rounded-[20px] bg-linear-to-r from-[#4B275E] via-[#2C175C] to-[#1F9FC6]">
+              Get $DUEL
+            </span>
           </button>
         </div>
-
-        <button className="relative w-[420px] mt-[50px] h-[78px] text-white text-[24px] font-medium rounded-[21px] p-0.5 cursor-pointer hover:scale-95 duration-300 transition-all bg-linear-to-r from-[#1F9FC6] via-[#2C175C] to-[#4B275E]">
-          <span className="flex items-center justify-center w-[420px] h-full rounded-[20px] bg-linear-to-r from-[#4B275E] via-[#2C175C] to-[#1F9FC6]">
-            Get $DUEL
-          </span>
-        </button>
-</div>
       </div>
       <div className="md:ml-20">
         <Image
