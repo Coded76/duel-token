@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
+    <div className="max-w-7xl mx-auto flex pt-10 items-center justify-between py-4 px-6">
       <div className="flex items-center gap-1.5">
         <Image
           src="/assets/logo.png"
