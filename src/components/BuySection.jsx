@@ -13,12 +13,12 @@ function BuySection() {
         <div className="w-full relative max-w-[652px]">
           <img
             src="/assets/eth_icon.png"
-            className="absolute -top-20 z-[5000] -left-16"
+            className="absolute md:-top-20 -top-10 z-[5000] md:-left-16 -left-6 md:w-[148px] md:h-[148px] w-[100px] h-[100px]"
             alt=""
           />
           <img
             src="/assets/duel_icon.png"
-            className="absolute -top-20 z-[5000] -right-16"
+            className="absolute md:-top-20 -top-10 z-[5000] md:-right-16 -right-6 md:w-[148px] md:h-[148px] w-[100px] h-[100px]"
             alt=""
           />
           <div className="p-[2px] rounded-[40px] bg-gradient-to-r from-[#32F0FF] to-[#E239FB]">

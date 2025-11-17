@@ -161,7 +161,7 @@ export default function FAQModal({ open, onClose }) {
               </div>
 
               <div className="ml-auto">
-                <button className="relative w-[246px] h-[55px] md:h-[62px] text-white text-[18px] md:text-[20px] font-bold rounded-2xl p-0.5 cursor-pointer hover:scale-95 transition-all bg-gradient-to-r from-[#1F9FC6] via-[#2C175C] to-[#4B275E]">
+                <button onClick={onClose} className="relative w-[246px] h-[55px] md:h-[62px] text-white text-[18px] md:text-[20px] font-bold rounded-2xl p-0.5 cursor-pointer hover:scale-95 transition-all bg-gradient-to-r from-[#1F9FC6] via-[#2C175C] to-[#4B275E]">
                   <span className="flex items-center justify-center w-full h-full rounded-xl bg-gradient-to-r from-[#4B275E] via-[#2C175C] to-[#1F9FC6]">
                     Let&apos;s Go!
                   </span>
