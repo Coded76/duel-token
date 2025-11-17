@@ -37,12 +37,12 @@ function HeroSection() {
               </p>
             </div>
           </div>
-          <div className="w-full md:hidden flex justify-center md:justify-end">
-            <Image
+          <div className="w-full md:hidden md:py-0 py-10 flex justify-center md:justify-end">
+            <img
               src="/assets/hero_img.png"
               alt="Hero Image"
-              width={900}
-              height={600}
+              // width={900}
+              // height={600}
               className="w-full max-w-[600px] h-auto object-contain"
             />
           </div>
