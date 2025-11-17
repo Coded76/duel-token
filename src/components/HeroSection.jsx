@@ -6,18 +6,18 @@ function HeroSection() {
   return (
     <div
       style={{ backgroundImage: "url('/assets/hero-bg.png')" }}
-      className="bg-top bg-cover pb-20 bg-no-repeat"
+      className="md:bg-top bg-right bg-cover pb-20 bg-no-repeat"
     >
       <Navbar />
 
-      <div className="flex md:flex-row flex-col md:pt-[60px] pt-[40px] max-w-7xl mx-auto items-center justify-between px-4 md:px-6 gap-10">
+      <div className="flex md:flex-row flex-col md:pt-[60px] pt-[40px] max-w-7xl mx-auto items-center justify-between px-16 md:px-6 gap-10">
         {/* LEFT CONTENT */}
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
-          <h2 className="text-[#1EF9F9] text-[32px] md:text-[40px] font-bold">
+          <h2 className="text-[#1EF9F9] text-[24px] md:text-[40px] font-bold">
             DUEL.COM
           </h2>
 
-          <h2 className="text-white text-[32px] md:text-[40px] pt-[18px] font-bold md:max-w-[461px] leading-tight">
+          <h2 className="text-white text-[24px] md:text-[40px] pt-[18px] font-bold md:max-w-[461px] leading-tight">
             The First Casino That Gives a Fuck.
           </h2>
 
@@ -26,27 +26,36 @@ function HeroSection() {
           </p>
 
           {/* Token Sale Box */}
-          <div className="w-full max-w-[444px] mt-[35px] h-auto py-6 px-4 flex flex-col justify-center rounded-2xl items-center gap-3 bg-[#010021]">
+          <div className="w-full max-w-[444px] mt-[35px] h-auto py-6 px-4 flex flex-col justify-center rounded-2xl items-center gap-3 bg-[#010021] bg-opacity-50">
             <p className="text-white text-[16px] font-bold">
               Token Sale Ends in
             </p>
 
-            <div className="w-full max-w-[362px] h-[72px] flex justify-center items-center rounded-2xl border border-[#0759FF]">
-              <p className="text-white text-[22px] md:text-[24px] font-bold">
+            <div className="w-full md:max-w-[362px] max-w-[193px] h-[72px] flex justify-center items-center rounded-2xl border border-[#0759FF]">
+              <p className="text-white text-[16px] md:text-[24px] font-bold">
                 7d 23h 45m 50s
               </p>
             </div>
           </div>
+          <div className="w-full md:hidden flex justify-center md:justify-end">
+            <Image
+              src="/assets/hero_img.png"
+              alt="Hero Image"
+              width={900}
+              height={600}
+              className="w-full max-w-[600px] h-auto object-contain"
+            />
+          </div>
 
           <div className="flex flex-col md:items-start items-center">
             {" "}
-            <div className="flex mt-12 items-center gap-2.5">
+            <div className="flex items-center gap-2.5">
               {" "}
-              <button className="w-[205px] h-[61px] bg-[#13223A] text-[20px] font-bold cursor-pointer hover:scale-95 duration-300 transition-all border border-[#0759FF] rounded-xl">
+              <button className="md:w-[205px] w-[130px] h-[61px] bg-[#13223A] md:text-[20px] text-[12px] font-bold cursor-pointer hover:scale-95 duration-300 transition-all border border-[#0759FF] rounded-xl">
                 {" "}
                 Go to <span className="text-[#00A6FF]">DUEL.COM</span>{" "}
               </button>{" "}
-              <button className="w-[205px] h-[61px] bg-[#13223A] text-[20px] font-bold cursor-pointer hover:scale-95 duration-300 transition-all border border-[#0759FF] rounded-xl">
+              <button className="md:w-[205px] w-[130px] h-[61px] bg-[#13223A] md:text-[20px] text-[12px] font-bold cursor-pointer hover:scale-95 duration-300 transition-all border border-[#0759FF] rounded-xl">
                 {" "}
                 Whitepaper{" "}
               </button>{" "}
@@ -60,7 +69,7 @@ function HeroSection() {
         </div>
 
         {/* RIGHT IMAGE */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+        <div className="w-full md:w-1/2 hidden md:flex justify-center md:justify-end">
           <Image
             src="/assets/hero_img.png"
             alt="Hero Image"
